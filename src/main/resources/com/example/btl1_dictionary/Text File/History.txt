@@ -1,3 +1,5 @@
+angary
+d-day
 sdlp
 mainframe
 rondo
@@ -296,5 +298,3 @@ luxury
 aimlessness
 aim
 add carry
-chianti
-s-bend

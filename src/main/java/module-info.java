@@ -8,6 +8,10 @@ module com.example.btl1_dictionary {
     requires freetts;
     requires simplecaptcha;
     requires java.ocr.api;
+    requires org.mongodb.driver.core;
+    requires org.mongodb.bson;
+    requires com.google.gson;
+    requires org.mongodb.driver.sync.client;
 
 
     opens com.example.btl1_dictionary to javafx.fxml;

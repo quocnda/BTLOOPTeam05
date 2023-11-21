@@ -68,7 +68,14 @@ public class Search_Controller extends General_Controller {
     }
 
     public void initialize() {
+
+//        for(int i = 0 ; i <ldata.size() ; i++) {
+//            System.out.println(ldata.get(i).getWord());
+//        }
+        System.out.println("davao ktao");
         Database_Connect.loadSuggestions();
+        //ConnectToMongo.test("Ykhoa");
+//        List<Data> ldata = ConnectToMongo.getData("Ykhoa");
     }
 
     private void showSuggestions(String input) {
